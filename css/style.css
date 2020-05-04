@@ -1,0 +1,189 @@
+section {
+    position: relative;
+    padding: 5% 5%;
+    font-family: 'Righteous';
+    color: rgb(58, 58, 58);
+    background: #fff0f6;
+}
+
+
+h3 {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 700;
+
+}
+
+.header {
+    height: 100vh;
+    background: #FFFDEB;
+    position: relative;
+    text-align: center;
+    padding: 0;
+}
+
+.header img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 35%;
+    width: 80%;
+}
+
+.nav-menu {
+    width: 100%;
+    background: rgb(168, 81, 138);
+    z-index: 20;
+    position: absolute;
+    font-weight: 700;
+
+}
+
+.fixed-top {
+    position: fixed !important;
+    background: rgb(168, 81, 138, 0.7);
+}
+
+.navbar-brand {
+    font-family: 'Orbitron';
+    font-weight: 700;
+}
+
+.navbar-brand img {
+    max-height: 27px;
+}
+
+.nav-menu .nav-link {
+    color: rgb(255, 253, 235, 0.7) !important;
+    font-family: 'Orbitron';
+
+}
+
+.nav-menu .nav-item .nav-link:hover,
+.nav-menu .nav-item .nav-link.active {
+    color: #ffffff !important;
+}
+
+.about {
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.pre-team {
+    height: 100vh;
+    position: relative;
+    padding: 0;
+    background: url("../images/team-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.pre-team .caption {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 38%;
+    font-size: 36px;
+    color: #ff85b6;
+}
+.pre-team .caption h4{
+    font-size: 34px;
+    font-weight: 700;
+}
+.team {
+
+
+    padding: 0;
+}
+
+.team .wrap {
+    display: flex;
+    height: 95vh;
+}
+
+.person {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+}
+
+.person:hover {
+    flex: 3;
+}
+
+.person-pic {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: grayscale(80%);
+    transition: .3s;
+    box-sizing: inherit !important;
+}
+
+.person:hover .person-pic {
+    filter: grayscale(0);
+}
+
+.person-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 10px;
+    text-align: center;
+    width: 80%;
+    opacity: 0;
+    transition: .2s;
+}
+
+.person:hover .person-info {
+    opacity: 1;
+    bottom: 60px;
+    transition-delay: .6s;
+}
+
+.person-info h2 {
+    font-size: 34px;
+    color: rgb(235, 3, 154);
+}
+
+.person-info p {
+    font-size: 25px;
+    color: rgba(240, 106, 193, 0.8);
+    font-style: italic;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.organisations {
+    background: #ffffff;
+    text-align: center;
+    
+
+}
+
+.organisations img {
+    max-width: 100%;
+    margin: 2% 0;
+}
+
+.organisations img.pm {
+    filter: invert();
+}
+
+.footer {
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
